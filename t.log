@@ -1,0 +1,531 @@
+2016-01-25 16:36:16 INFO yarn version 0.20 starts
+2016-01-25 16:36:16 DEBUG sys.argv: ['./yarn', 'simple.scenario', '-v', '--log', 't.log']
+2016-01-25 16:36:16 DEBUG current working directory: /home/liw/code/cmdtest/cmdtest
+2016-01-25 16:36:16 DEBUG uid: 1000
+2016-01-25 16:36:16 DEBUG effective uid: 1000
+2016-01-25 16:36:16 DEBUG gid: 1000
+2016-01-25 16:36:16 DEBUG effective gid: 1000
+2016-01-25 16:36:16 DEBUG environment variables:
+2016-01-25 16:36:16 DEBUG environment: GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+2016-01-25 16:36:16 DEBUG environment: XDG_CURRENT_DESKTOP=GNOME
+2016-01-25 16:36:16 DEBUG environment: LOGNAME=liw
+2016-01-25 16:36:16 DEBUG environment: USER=liw
+2016-01-25 16:36:16 DEBUG environment: PROMPT_COMMAND=prompt_command
+2016-01-25 16:36:16 DEBUG environment: HOME=/home/liw
+2016-01-25 16:36:16 DEBUG environment: XDG_VTNR=7
+2016-01-25 16:36:16 DEBUG environment: PATH=/usr/lib/ccache:/home/liw/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/liw/bin
+2016-01-25 16:36:16 DEBUG environment: PS1=\[(B[m[1m\]\u@\h\[(B[m\][liw/unicode]\[(B[m[1m\]\$ \[(B[m\]
+2016-01-25 16:36:16 DEBUG environment: WINDOWPATH=7
+2016-01-25 16:36:16 DEBUG environment: SSH_AGENT_PID=1988
+2016-01-25 16:36:16 DEBUG environment: LANG=en_GB.UTF-8
+2016-01-25 16:36:16 DEBUG environment: TERM=xterm
+2016-01-25 16:36:16 DEBUG environment: SHELL=/bin/bash
+2016-01-25 16:36:16 DEBUG environment: XAUTHORITY=/var/run/gdm3/auth-for-liw-PnyhTv/database
+2016-01-25 16:36:16 DEBUG environment: SESSION_MANAGER=local/exolobe1:@/tmp/.ICE-unix/1938,unix/exolobe1:/tmp/.ICE-unix/1938
+2016-01-25 16:36:16 DEBUG environment: SHLVL=1
+2016-01-25 16:36:16 DEBUG environment: VIRSH_DEFAULT_CONNECT_URI=qemu:///system
+2016-01-25 16:36:16 DEBUG environment: DISPLAY=:0
+2016-01-25 16:36:16 DEBUG environment: WINDOWID=32369057
+2016-01-25 16:36:16 DEBUG environment: EDITOR=emacs
+2016-01-25 16:36:16 DEBUG environment: DESKTOP_AUTOSTART_ID=10a06a116117eac5da145361888127485000000019380001
+2016-01-25 16:36:16 DEBUG environment: DEBEMAIL=liw@liw.fi
+2016-01-25 16:36:16 DEBUG environment: USERNAME=liw
+2016-01-25 16:36:16 DEBUG environment: XDG_SESSION_DESKTOP=gnome
+2016-01-25 16:36:16 DEBUG environment: XDG_RUNTIME_DIR=/run/user/1000
+2016-01-25 16:36:16 DEBUG environment: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2016-01-25 16:36:16 DEBUG environment: VTE_VERSION=3801
+2016-01-25 16:36:16 DEBUG environment: GDMSESSION=gnome
+2016-01-25 16:36:16 DEBUG environment: LESSCHARSET=utf-8
+2016-01-25 16:36:16 DEBUG environment: XDG_SESSION_ID=1
+2016-01-25 16:36:16 DEBUG environment: DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-MIvzKl7Cyw,guid=bf713dcb13cc9385f2aac93c56a476c1
+2016-01-25 16:36:16 DEBUG environment: _=./yarn
+2016-01-25 16:36:16 DEBUG environment: DESKTOP_SESSION=gnome
+2016-01-25 16:36:16 DEBUG environment: GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
+2016-01-25 16:36:16 DEBUG environment: LC_COLLATE=fi_FI.UTF-8
+2016-01-25 16:36:16 DEBUG environment: GDM_LANG=en_GB.utf8
+2016-01-25 16:36:16 DEBUG environment: HISTCONTROL=ignoredups
+2016-01-25 16:36:16 DEBUG environment: XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+2016-01-25 16:36:16 DEBUG environment: PWD=/home/liw/code/cmdtest/cmdtest
+2016-01-25 16:36:16 DEBUG environment: XDG_MENU_PREFIX=gnome-
+2016-01-25 16:36:16 DEBUG environment: PAGER=less
+2016-01-25 16:36:16 DEBUG environment: XDG_SEAT=seat0
+2016-01-25 16:36:16 DEBUG Config:
+[config]
+output = 
+log = t.log
+log-level = debug
+log-max = 0
+log-keep = 10
+log-mode = 0600
+dump-memory-profile = simple
+memory-dump-interval = 300
+no-act = False
+quiet = False
+verbose = True
+shell-library = 
+run = 
+tempdir = 
+env = 
+snapshot = False
+timings = False
+allow-missing-steps = False
+require-assumptions = False
+shell = /bin/sh
+shell-arg = -xeu
+cd-datadir = False
+
+
+2016-01-25 16:36:16 DEBUG Python version: 2.7.9 (default, Mar  1 2015, 12:57:24) 
+[GCC 4.9.2]
+2016-01-25 16:36:16 INFO Parsing scenario file simple.scenario
+2016-01-25 16:36:16 INFO Successfully loaded extension "yarnlib.mdparser.ParseScenarioTestBlocks".
+2016-01-25 16:36:16 INFO No shell libraries defined
+2016-01-25 16:36:16 INFO Found 2 scenarios
+2016-01-25 16:36:16 INFO Running scenario a simple scenario
+2016-01-25 16:36:16 INFO DATADIR is /tmp/tmp1MJ2yM/a_simple_scenario/datadir
+2016-01-25 16:36:16 INFO HOME for tests is /tmp/tmp1MJ2yM/a_simple_scenario/datadir/HOME
+2016-01-25 16:36:16 INFO Running step "GIVEN a clean slate"
+2016-01-25 16:36:16 WARNING shell: '/bin/sh'
+2016-01-25 16:36:16 WARNING shell_args: ['-xeu']
+2016-01-25 16:36:16 WARNING shell_script: '/tmp/tmpaazT94'
+2016-01-25 16:36:16 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpaazT94']]
+2016-01-25 16:36:16 DEBUG Exit code: 0
+2016-01-25 16:36:16 DEBUG Standard output:
+    a clean slate!
+
+2016-01-25 16:36:16 DEBUG Standard error:
+    + echo a clean slate!
+
+2016-01-25 16:36:16 INFO Running step "WHEN nothing happens"
+2016-01-25 16:36:16 WARNING shell: '/bin/sh'
+2016-01-25 16:36:16 WARNING shell_args: ['-xeu']
+2016-01-25 16:36:16 WARNING shell_script: '/tmp/tmpMDOI_O'
+2016-01-25 16:36:16 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpMDOI_O']]
+2016-01-25 16:36:16 DEBUG Exit code: 0
+2016-01-25 16:36:16 DEBUG Standard output: empty
+2016-01-25 16:36:16 DEBUG Standard error:
+    + true
+
+2016-01-25 16:36:16 INFO Running step "THEN everything is OK"
+2016-01-25 16:36:16 WARNING shell: '/bin/sh'
+2016-01-25 16:36:16 WARNING shell_args: ['-xeu']
+2016-01-25 16:36:16 WARNING shell_script: '/tmp/tmpZ6DAzs'
+2016-01-25 16:36:16 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpZ6DAzs']]
+2016-01-25 16:36:16 DEBUG Exit code: 0
+2016-01-25 16:36:16 DEBUG Standard output:
+    OK!
+
+2016-01-25 16:36:16 DEBUG Standard error:
+    + echo OK!
+
+2016-01-25 16:36:16 INFO Running step "THEN not all is well"
+2016-01-25 16:36:16 WARNING shell: '/bin/sh'
+2016-01-25 16:36:16 WARNING shell_args: ['-xeu']
+2016-01-25 16:36:16 WARNING shell_script: '/tmp/tmpZuDes3'
+2016-01-25 16:36:16 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpZuDes3']]
+2016-01-25 16:36:16 DEBUG Exit code: 1
+2016-01-25 16:36:16 DEBUG Standard output: empty
+2016-01-25 16:36:16 DEBUG Standard error:
+    + false
+
+2016-01-25 16:36:16 INFO ERROR: In scenario "a simple scenario"
+step "THEN not all is well" failed,
+with exit code 1:
+Standard output from shell command:
+Standard error from shell command:
+    + false
+
+2016-01-25 16:36:16 INFO Running step "FINALLY cleanup"
+2016-01-25 16:36:16 WARNING shell: '/bin/sh'
+2016-01-25 16:36:16 WARNING shell_args: ['-xeu']
+2016-01-25 16:36:16 WARNING shell_script: '/tmp/tmpAgkeJY'
+2016-01-25 16:36:16 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpAgkeJY']]
+2016-01-25 16:36:16 DEBUG Exit code: 0
+2016-01-25 16:36:16 DEBUG Standard output:
+    cleaning up
+
+2016-01-25 16:36:16 DEBUG Standard error:
+    + echo cleaning up
+
+2016-01-25 16:36:16 INFO Running scenario fööbär
+2016-01-25 16:36:16 INFO DATADIR is /tmp/tmpfQj38W/f_b_r/datadir
+2016-01-25 16:36:16 INFO HOME for tests is /tmp/tmpfQj38W/f_b_r/datadir/HOME
+2016-01-25 16:36:16 INFO Running step "GIVEN thing örrör"
+2016-01-25 16:36:16 WARNING shell: '/bin/sh'
+2016-01-25 16:36:16 WARNING shell_args: ['-xeu']
+2016-01-25 16:36:16 WARNING shell_script: '/tmp/tmpe38S1N'
+2016-01-25 16:36:16 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpe38S1N']]
+2016-01-25 16:36:16 CRITICAL Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/cliapp/app.py", line 189, in _run
+    self.process_args(args)
+  File "./yarn", line 173, in process_args
+    if not self.run_scenario(scenario, shell_prelude):
+  File "./yarn", line 376, in run_scenario
+    datadir, scenario, step, shell_prelude, True)
+  File "./yarn", line 474, in run_step
+    env=env, cwd=cwd)
+  File "/usr/lib/python2.7/dist-packages/cliapp/runcmd.py", line 103, in runcmd_unchecked
+    kwargs)
+  File "/usr/lib/python2.7/dist-packages/cliapp/runcmd.py", line 139, in _build_pipeline
+    stderr=stderr, close_fds=True, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xf6' in position 0: ordinal not in range(128)
+
+2016-01-25 16:37:18 INFO yarn version 0.20 starts
+2016-01-25 16:37:18 DEBUG sys.argv: ['./yarn', 'simple.scenario', '-v', '--log', 't.log']
+2016-01-25 16:37:18 DEBUG current working directory: /home/liw/code/cmdtest/cmdtest
+2016-01-25 16:37:18 DEBUG uid: 1000
+2016-01-25 16:37:18 DEBUG effective uid: 1000
+2016-01-25 16:37:18 DEBUG gid: 1000
+2016-01-25 16:37:18 DEBUG effective gid: 1000
+2016-01-25 16:37:18 DEBUG environment variables:
+2016-01-25 16:37:18 DEBUG environment: GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+2016-01-25 16:37:18 DEBUG environment: XDG_CURRENT_DESKTOP=GNOME
+2016-01-25 16:37:18 DEBUG environment: LOGNAME=liw
+2016-01-25 16:37:18 DEBUG environment: USER=liw
+2016-01-25 16:37:18 DEBUG environment: PROMPT_COMMAND=prompt_command
+2016-01-25 16:37:18 DEBUG environment: HOME=/home/liw
+2016-01-25 16:37:18 DEBUG environment: XDG_VTNR=7
+2016-01-25 16:37:18 DEBUG environment: PATH=/usr/lib/ccache:/home/liw/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/liw/bin
+2016-01-25 16:37:18 DEBUG environment: PS1=\[(B[m[1m\]\u@\h\[(B[m\][liw/unicode]\[(B[m[1m\]\$ \[(B[m\]
+2016-01-25 16:37:18 DEBUG environment: WINDOWPATH=7
+2016-01-25 16:37:18 DEBUG environment: SSH_AGENT_PID=1988
+2016-01-25 16:37:18 DEBUG environment: LANG=en_GB.UTF-8
+2016-01-25 16:37:18 DEBUG environment: TERM=xterm
+2016-01-25 16:37:18 DEBUG environment: SHELL=/bin/bash
+2016-01-25 16:37:18 DEBUG environment: XAUTHORITY=/var/run/gdm3/auth-for-liw-PnyhTv/database
+2016-01-25 16:37:18 DEBUG environment: SESSION_MANAGER=local/exolobe1:@/tmp/.ICE-unix/1938,unix/exolobe1:/tmp/.ICE-unix/1938
+2016-01-25 16:37:18 DEBUG environment: SHLVL=1
+2016-01-25 16:37:18 DEBUG environment: VIRSH_DEFAULT_CONNECT_URI=qemu:///system
+2016-01-25 16:37:18 DEBUG environment: DISPLAY=:0
+2016-01-25 16:37:18 DEBUG environment: WINDOWID=32369057
+2016-01-25 16:37:18 DEBUG environment: EDITOR=emacs
+2016-01-25 16:37:18 DEBUG environment: DESKTOP_AUTOSTART_ID=10a06a116117eac5da145361888127485000000019380001
+2016-01-25 16:37:18 DEBUG environment: DEBEMAIL=liw@liw.fi
+2016-01-25 16:37:18 DEBUG environment: USERNAME=liw
+2016-01-25 16:37:18 DEBUG environment: XDG_SESSION_DESKTOP=gnome
+2016-01-25 16:37:18 DEBUG environment: XDG_RUNTIME_DIR=/run/user/1000
+2016-01-25 16:37:18 DEBUG environment: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2016-01-25 16:37:18 DEBUG environment: VTE_VERSION=3801
+2016-01-25 16:37:18 DEBUG environment: GDMSESSION=gnome
+2016-01-25 16:37:18 DEBUG environment: LESSCHARSET=utf-8
+2016-01-25 16:37:18 DEBUG environment: XDG_SESSION_ID=1
+2016-01-25 16:37:18 DEBUG environment: DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-MIvzKl7Cyw,guid=bf713dcb13cc9385f2aac93c56a476c1
+2016-01-25 16:37:18 DEBUG environment: _=./yarn
+2016-01-25 16:37:18 DEBUG environment: DESKTOP_SESSION=gnome
+2016-01-25 16:37:18 DEBUG environment: GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
+2016-01-25 16:37:18 DEBUG environment: LC_COLLATE=fi_FI.UTF-8
+2016-01-25 16:37:18 DEBUG environment: GDM_LANG=en_GB.utf8
+2016-01-25 16:37:18 DEBUG environment: HISTCONTROL=ignoredups
+2016-01-25 16:37:18 DEBUG environment: XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+2016-01-25 16:37:18 DEBUG environment: PWD=/home/liw/code/cmdtest/cmdtest
+2016-01-25 16:37:18 DEBUG environment: XDG_MENU_PREFIX=gnome-
+2016-01-25 16:37:18 DEBUG environment: PAGER=less
+2016-01-25 16:37:18 DEBUG environment: XDG_SEAT=seat0
+2016-01-25 16:37:18 DEBUG Config:
+[config]
+output = 
+log = t.log
+log-level = debug
+log-max = 0
+log-keep = 10
+log-mode = 0600
+dump-memory-profile = simple
+memory-dump-interval = 300
+no-act = False
+quiet = False
+verbose = True
+shell-library = 
+run = 
+tempdir = 
+env = 
+snapshot = False
+timings = False
+allow-missing-steps = False
+require-assumptions = False
+shell = /bin/sh
+shell-arg = -xeu
+cd-datadir = False
+
+
+2016-01-25 16:37:18 DEBUG Python version: 2.7.9 (default, Mar  1 2015, 12:57:24) 
+[GCC 4.9.2]
+2016-01-25 16:37:18 INFO Parsing scenario file simple.scenario
+2016-01-25 16:37:18 INFO Successfully loaded extension "yarnlib.mdparser.ParseScenarioTestBlocks".
+2016-01-25 16:37:18 INFO No shell libraries defined
+2016-01-25 16:37:18 INFO Found 2 scenarios
+2016-01-25 16:37:18 INFO Running scenario a simple scenario
+2016-01-25 16:37:18 INFO DATADIR is /tmp/tmp0zpX2Q/a_simple_scenario/datadir
+2016-01-25 16:37:18 INFO HOME for tests is /tmp/tmp0zpX2Q/a_simple_scenario/datadir/HOME
+2016-01-25 16:37:18 INFO Running step "GIVEN a clean slate"
+2016-01-25 16:37:18 DEBUG shell: '/bin/sh'
+2016-01-25 16:37:18 DEBUG shell_args: ['-xeu']
+2016-01-25 16:37:18 DEBUG shell_script: '/tmp/tmpG5BkcE'
+2016-01-25 16:37:18 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpG5BkcE']]
+2016-01-25 16:37:18 DEBUG Exit code: 0
+2016-01-25 16:37:18 DEBUG Standard output:
+    a clean slate!
+
+2016-01-25 16:37:18 DEBUG Standard error:
+    + echo a clean slate!
+
+2016-01-25 16:37:18 INFO Running step "WHEN nothing happens"
+2016-01-25 16:37:18 DEBUG shell: '/bin/sh'
+2016-01-25 16:37:18 DEBUG shell_args: ['-xeu']
+2016-01-25 16:37:18 DEBUG shell_script: '/tmp/tmpGLIrnP'
+2016-01-25 16:37:18 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpGLIrnP']]
+2016-01-25 16:37:18 DEBUG Exit code: 0
+2016-01-25 16:37:18 DEBUG Standard output: empty
+2016-01-25 16:37:18 DEBUG Standard error:
+    + true
+
+2016-01-25 16:37:18 INFO Running step "THEN everything is OK"
+2016-01-25 16:37:18 DEBUG shell: '/bin/sh'
+2016-01-25 16:37:18 DEBUG shell_args: ['-xeu']
+2016-01-25 16:37:18 DEBUG shell_script: '/tmp/tmpEqnSq_'
+2016-01-25 16:37:18 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpEqnSq_']]
+2016-01-25 16:37:18 DEBUG Exit code: 0
+2016-01-25 16:37:18 DEBUG Standard output:
+    OK!
+
+2016-01-25 16:37:18 DEBUG Standard error:
+    + echo OK!
+
+2016-01-25 16:37:18 INFO Running step "THEN not all is well"
+2016-01-25 16:37:18 DEBUG shell: '/bin/sh'
+2016-01-25 16:37:18 DEBUG shell_args: ['-xeu']
+2016-01-25 16:37:18 DEBUG shell_script: '/tmp/tmpQACNIu'
+2016-01-25 16:37:18 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpQACNIu']]
+2016-01-25 16:37:18 DEBUG Exit code: 1
+2016-01-25 16:37:18 DEBUG Standard output: empty
+2016-01-25 16:37:18 DEBUG Standard error:
+    + false
+
+2016-01-25 16:37:18 INFO ERROR: In scenario "a simple scenario"
+step "THEN not all is well" failed,
+with exit code 1:
+Standard output from shell command:
+Standard error from shell command:
+    + false
+
+2016-01-25 16:37:18 INFO Running step "FINALLY cleanup"
+2016-01-25 16:37:18 DEBUG shell: '/bin/sh'
+2016-01-25 16:37:18 DEBUG shell_args: ['-xeu']
+2016-01-25 16:37:18 DEBUG shell_script: '/tmp/tmpxyqXVn'
+2016-01-25 16:37:18 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpxyqXVn']]
+2016-01-25 16:37:18 DEBUG Exit code: 0
+2016-01-25 16:37:18 DEBUG Standard output:
+    cleaning up
+
+2016-01-25 16:37:18 DEBUG Standard error:
+    + echo cleaning up
+
+2016-01-25 16:37:18 INFO Running scenario fööbär
+2016-01-25 16:37:18 INFO DATADIR is /tmp/tmpSAvi4J/f_b_r/datadir
+2016-01-25 16:37:18 INFO HOME for tests is /tmp/tmpSAvi4J/f_b_r/datadir/HOME
+2016-01-25 16:37:18 INFO Running step "GIVEN thing örrör"
+2016-01-25 16:37:18 DEBUG shell: '/bin/sh'
+2016-01-25 16:37:18 DEBUG shell_args: ['-xeu']
+2016-01-25 16:37:18 DEBUG shell_script: '/tmp/tmppYJE8Q'
+2016-01-25 16:37:18 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmppYJE8Q']]
+2016-01-25 16:37:18 CRITICAL Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/cliapp/app.py", line 189, in _run
+    self.process_args(args)
+  File "./yarn", line 173, in process_args
+    if not self.run_scenario(scenario, shell_prelude):
+  File "./yarn", line 376, in run_scenario
+    datadir, scenario, step, shell_prelude, True)
+  File "./yarn", line 474, in run_step
+    env=env, cwd=cwd)
+  File "/usr/lib/python2.7/dist-packages/cliapp/runcmd.py", line 103, in runcmd_unchecked
+    kwargs)
+  File "/usr/lib/python2.7/dist-packages/cliapp/runcmd.py", line 139, in _build_pipeline
+    stderr=stderr, close_fds=True, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xf6' in position 0: ordinal not in range(128)
+
+2016-01-25 16:38:01 INFO yarn version 0.20 starts
+2016-01-25 16:38:01 DEBUG sys.argv: ['./yarn', 'simple.scenario', '-v', '--log', 't.log']
+2016-01-25 16:38:01 DEBUG current working directory: /home/liw/code/cmdtest/cmdtest
+2016-01-25 16:38:01 DEBUG uid: 1000
+2016-01-25 16:38:01 DEBUG effective uid: 1000
+2016-01-25 16:38:01 DEBUG gid: 1000
+2016-01-25 16:38:01 DEBUG effective gid: 1000
+2016-01-25 16:38:01 DEBUG environment variables:
+2016-01-25 16:38:01 DEBUG environment: GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+2016-01-25 16:38:01 DEBUG environment: XDG_CURRENT_DESKTOP=GNOME
+2016-01-25 16:38:01 DEBUG environment: LOGNAME=liw
+2016-01-25 16:38:01 DEBUG environment: USER=liw
+2016-01-25 16:38:01 DEBUG environment: PROMPT_COMMAND=prompt_command
+2016-01-25 16:38:01 DEBUG environment: HOME=/home/liw
+2016-01-25 16:38:01 DEBUG environment: XDG_VTNR=7
+2016-01-25 16:38:01 DEBUG environment: PATH=/usr/lib/ccache:/home/liw/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/liw/bin
+2016-01-25 16:38:01 DEBUG environment: PS1=\[(B[m[1m\]\u@\h\[(B[m\][liw/unicode]\[(B[m[1m\]\$ \[(B[m\]
+2016-01-25 16:38:01 DEBUG environment: WINDOWPATH=7
+2016-01-25 16:38:01 DEBUG environment: SSH_AGENT_PID=1988
+2016-01-25 16:38:01 DEBUG environment: LANG=en_GB.UTF-8
+2016-01-25 16:38:01 DEBUG environment: TERM=xterm
+2016-01-25 16:38:01 DEBUG environment: SHELL=/bin/bash
+2016-01-25 16:38:01 DEBUG environment: XAUTHORITY=/var/run/gdm3/auth-for-liw-PnyhTv/database
+2016-01-25 16:38:01 DEBUG environment: SESSION_MANAGER=local/exolobe1:@/tmp/.ICE-unix/1938,unix/exolobe1:/tmp/.ICE-unix/1938
+2016-01-25 16:38:01 DEBUG environment: SHLVL=1
+2016-01-25 16:38:01 DEBUG environment: VIRSH_DEFAULT_CONNECT_URI=qemu:///system
+2016-01-25 16:38:01 DEBUG environment: DISPLAY=:0
+2016-01-25 16:38:01 DEBUG environment: WINDOWID=32369057
+2016-01-25 16:38:01 DEBUG environment: EDITOR=emacs
+2016-01-25 16:38:01 DEBUG environment: DESKTOP_AUTOSTART_ID=10a06a116117eac5da145361888127485000000019380001
+2016-01-25 16:38:01 DEBUG environment: DEBEMAIL=liw@liw.fi
+2016-01-25 16:38:01 DEBUG environment: USERNAME=liw
+2016-01-25 16:38:01 DEBUG environment: XDG_SESSION_DESKTOP=gnome
+2016-01-25 16:38:01 DEBUG environment: XDG_RUNTIME_DIR=/run/user/1000
+2016-01-25 16:38:01 DEBUG environment: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2016-01-25 16:38:01 DEBUG environment: VTE_VERSION=3801
+2016-01-25 16:38:01 DEBUG environment: GDMSESSION=gnome
+2016-01-25 16:38:01 DEBUG environment: LESSCHARSET=utf-8
+2016-01-25 16:38:01 DEBUG environment: XDG_SESSION_ID=1
+2016-01-25 16:38:01 DEBUG environment: DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-MIvzKl7Cyw,guid=bf713dcb13cc9385f2aac93c56a476c1
+2016-01-25 16:38:01 DEBUG environment: _=./yarn
+2016-01-25 16:38:01 DEBUG environment: DESKTOP_SESSION=gnome
+2016-01-25 16:38:01 DEBUG environment: GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
+2016-01-25 16:38:01 DEBUG environment: LC_COLLATE=fi_FI.UTF-8
+2016-01-25 16:38:01 DEBUG environment: GDM_LANG=en_GB.utf8
+2016-01-25 16:38:01 DEBUG environment: HISTCONTROL=ignoredups
+2016-01-25 16:38:01 DEBUG environment: XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+2016-01-25 16:38:01 DEBUG environment: PWD=/home/liw/code/cmdtest/cmdtest
+2016-01-25 16:38:01 DEBUG environment: XDG_MENU_PREFIX=gnome-
+2016-01-25 16:38:01 DEBUG environment: PAGER=less
+2016-01-25 16:38:01 DEBUG environment: XDG_SEAT=seat0
+2016-01-25 16:38:01 DEBUG Config:
+[config]
+output = 
+log = t.log
+log-level = debug
+log-max = 0
+log-keep = 10
+log-mode = 0600
+dump-memory-profile = simple
+memory-dump-interval = 300
+no-act = False
+quiet = False
+verbose = True
+shell-library = 
+run = 
+tempdir = 
+env = 
+snapshot = False
+timings = False
+allow-missing-steps = False
+require-assumptions = False
+shell = /bin/sh
+shell-arg = -xeu
+cd-datadir = False
+
+
+2016-01-25 16:38:01 DEBUG Python version: 2.7.9 (default, Mar  1 2015, 12:57:24) 
+[GCC 4.9.2]
+2016-01-25 16:38:01 INFO Parsing scenario file simple.scenario
+2016-01-25 16:38:01 INFO Successfully loaded extension "yarnlib.mdparser.ParseScenarioTestBlocks".
+2016-01-25 16:38:01 INFO No shell libraries defined
+2016-01-25 16:38:01 INFO Found 2 scenarios
+2016-01-25 16:38:01 INFO Running scenario a simple scenario
+2016-01-25 16:38:01 INFO DATADIR is /tmp/tmpk0mqxH/a_simple_scenario/datadir
+2016-01-25 16:38:01 INFO HOME for tests is /tmp/tmpk0mqxH/a_simple_scenario/datadir/HOME
+2016-01-25 16:38:01 INFO Running step "GIVEN a clean slate"
+2016-01-25 16:38:01 DEBUG shell: '/bin/sh'
+2016-01-25 16:38:01 DEBUG shell_args: ['-xeu']
+2016-01-25 16:38:01 DEBUG shell_script: '/tmp/tmpf_Y9bY'
+2016-01-25 16:38:01 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpf_Y9bY']]
+2016-01-25 16:38:01 DEBUG Exit code: 0
+2016-01-25 16:38:01 DEBUG Standard output:
+    a clean slate!
+
+2016-01-25 16:38:01 DEBUG Standard error:
+    + echo a clean slate!
+
+2016-01-25 16:38:01 INFO Running step "WHEN nothing happens"
+2016-01-25 16:38:01 DEBUG shell: '/bin/sh'
+2016-01-25 16:38:01 DEBUG shell_args: ['-xeu']
+2016-01-25 16:38:01 DEBUG shell_script: '/tmp/tmpxadYjh'
+2016-01-25 16:38:01 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpxadYjh']]
+2016-01-25 16:38:01 DEBUG Exit code: 0
+2016-01-25 16:38:01 DEBUG Standard output: empty
+2016-01-25 16:38:01 DEBUG Standard error:
+    + true
+
+2016-01-25 16:38:01 INFO Running step "THEN everything is OK"
+2016-01-25 16:38:01 DEBUG shell: '/bin/sh'
+2016-01-25 16:38:01 DEBUG shell_args: ['-xeu']
+2016-01-25 16:38:01 DEBUG shell_script: '/tmp/tmpBwsuFX'
+2016-01-25 16:38:01 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpBwsuFX']]
+2016-01-25 16:38:01 DEBUG Exit code: 0
+2016-01-25 16:38:01 DEBUG Standard output:
+    OK!
+
+2016-01-25 16:38:01 DEBUG Standard error:
+    + echo OK!
+
+2016-01-25 16:38:01 INFO Running step "THEN not all is well"
+2016-01-25 16:38:01 DEBUG shell: '/bin/sh'
+2016-01-25 16:38:01 DEBUG shell_args: ['-xeu']
+2016-01-25 16:38:01 DEBUG shell_script: '/tmp/tmp4fsg3K'
+2016-01-25 16:38:01 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmp4fsg3K']]
+2016-01-25 16:38:01 DEBUG Exit code: 1
+2016-01-25 16:38:01 DEBUG Standard output: empty
+2016-01-25 16:38:01 DEBUG Standard error:
+    + false
+
+2016-01-25 16:38:01 INFO ERROR: In scenario "a simple scenario"
+step "THEN not all is well" failed,
+with exit code 1:
+Standard output from shell command:
+Standard error from shell command:
+    + false
+
+2016-01-25 16:38:01 INFO Running step "FINALLY cleanup"
+2016-01-25 16:38:01 DEBUG shell: '/bin/sh'
+2016-01-25 16:38:01 DEBUG shell_args: ['-xeu']
+2016-01-25 16:38:01 DEBUG shell_script: '/tmp/tmpmuqqJj'
+2016-01-25 16:38:01 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpmuqqJj']]
+2016-01-25 16:38:01 DEBUG Exit code: 0
+2016-01-25 16:38:01 DEBUG Standard output:
+    cleaning up
+
+2016-01-25 16:38:01 DEBUG Standard error:
+    + echo cleaning up
+
+2016-01-25 16:38:01 INFO Running scenario fööbär
+2016-01-25 16:38:01 INFO DATADIR is /tmp/tmpOd3BAR/f_b_r/datadir
+2016-01-25 16:38:01 INFO HOME for tests is /tmp/tmpOd3BAR/f_b_r/datadir/HOME
+2016-01-25 16:38:01 INFO Running step "GIVEN thing örrör"
+2016-01-25 16:38:01 DEBUG shell: '/bin/sh'
+2016-01-25 16:38:01 DEBUG shell_args: ['-xeu']
+2016-01-25 16:38:01 DEBUG shell_script: '/tmp/tmpXuoPD6'
+2016-01-25 16:38:01 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpXuoPD6']]
+2016-01-25 16:38:01 DEBUG Exit code: 0
+2016-01-25 16:38:01 DEBUG Standard output: empty
+2016-01-25 16:38:01 DEBUG Standard error:
+    + true
+
+2016-01-25 16:38:01 INFO Running step "THEN thing trööt"
+2016-01-25 16:38:01 DEBUG shell: '/bin/sh'
+2016-01-25 16:38:01 DEBUG shell_args: ['-xeu']
+2016-01-25 16:38:01 DEBUG shell_script: '/tmp/tmpBErsVf'
+2016-01-25 16:38:01 DEBUG run external command: [['/bin/sh', '-xeu', '/tmp/tmpBErsVf']]
+2016-01-25 16:38:01 DEBUG Exit code: 0
+2016-01-25 16:38:01 DEBUG Standard output: empty
+2016-01-25 16:38:01 DEBUG Standard error:
+    + true
+
+2016-01-25 16:38:01 CRITICAL Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/cliapp/app.py", line 189, in _run
+    self.process_args(args)
+  File "./yarn", line 186, in process_args
+    'Test suite FAILED in %s scenarios' % len(failed_scenarios))
+AppException: Test suite FAILED in 1 scenarios
+
